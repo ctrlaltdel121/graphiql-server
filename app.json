@@ -2,9 +2,6 @@
   "name": "GraphiQL Server",
   "description": "A simple server to have a GraphiQL UI playground for your API, it handles authentication and proxies all API calls (avoiding CORS)",
   "image": "heroku/nodejs",
-  "addons": [
-    "rediscloud"
-  ],
   "env": {
     "GS_APP_URL": {
       "description": "The `<heroku-app-name>` is the name that you choosed for your app above.",
